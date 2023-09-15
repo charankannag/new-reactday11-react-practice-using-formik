@@ -1,0 +1,76 @@
+.form
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card
+{
+ 
+ display:flex;
+ justify-content: center;
+ align-items: center;
+}
+.center
+{
+  text-align: center;
+}
+.bookContent
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ background-image: url("https://images.pexels.com/photos/7135121/pexels-photo-7135121.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.userContent
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App
+{
+  width: 100%;
+ background-color: black;
+  color: white;
+}
+.menu 
+{
+  background-color: bisque;
+  display: flex;
+ flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.menu> ul{
+  display: flex;
+ flex-direction: row;
+ width: 40%;
+ justify-content: space-between;
+}
+.menu > ul >li{
+  list-style-type: none;
+}
+.menu > ul > li > a{
+  text-decoration: none;
+  color:brown;
+  font-size:20px ;
+}
+.menu > ul > li > a:hover{
+  font-size: 25px;
+  color: black;
+}
+.btndiv
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
